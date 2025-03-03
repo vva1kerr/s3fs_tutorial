@@ -18,4 +18,4 @@ S3_BUCKET=my-bucket-name
 * chmod 600 ~/.passwd-s3fs
 * mkdir ~/s3bucket
 * s3fs my-bucket-name ~/s3bucket -o passwd_file=~/.passwd-s3fs -o url=https://s3.amazonaws.com -o use_path_request_style
-* sudo /home/ubuntu/test_stream_mount/venv/bin/python -m streamlit run app.py --server.port 80
+* sudo /home/ubuntu/s3fs_tutorial/venv/bin/python -m streamlit run app.py --server.port 80
