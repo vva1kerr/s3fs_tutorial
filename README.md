@@ -2,6 +2,10 @@
 
 * sudo apt-get update -y
 * sudo apt-get install s3fs -y
+* sudo apt install python3.12-venv
+* cd s3fs_tutorial
+* python -m venv venv
+* source venv/bin/activate
 * pip install boto3 python-dotenv
 * .env file
 ```
