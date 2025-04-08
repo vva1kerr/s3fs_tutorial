@@ -1,4 +1,4 @@
-
+* https://surajblog.medium.com/mount-aws-s3-bucket-on-amazon-ec2-9f18b48d4f04
 
 * sudo apt-get update -y
 * sudo apt-get install s3fs -y
